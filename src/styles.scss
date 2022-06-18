@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/styles/reset.scss";
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.main--container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefae0;
+}
+.btn-primary {
+  background-color: #dda15e;
+  color: #fefae0;
+}
+.btn-secondary {
+  background-color: #606c38;
+  color: #fefae0;
+}
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: #606c38;
+}
+.form {
+  display: flex;
+  align-self: center;
+  gap: 15px;
+}
+.input {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #bc6c25;
+  color: #fefae0;
+  &::placeholder {
+    color: #fefae0;
+    opacity: 1;
+  }
+}
+.select {
+  background-color: #bc6c25;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 15px;
+  color: #fefae0;
+}
+option {
+  border-radius: 10px;
+}

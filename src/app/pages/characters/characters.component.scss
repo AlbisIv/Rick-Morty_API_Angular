@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
